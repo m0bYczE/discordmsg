@@ -1,15 +1,15 @@
 {
-  "name": "agorlov/discordmsg",
+  "name": "m0bY_czE/discordmsg",
   "description": "Little class to send Discord message",
   "authors": [
     {
-      "name": "Alexandr Gorlov",
-      "email": "a.gorlov@gmail.com"
+      "name": "m0bY_czE",
+      "email": "m0bY@differment.cz"
     }
   ],
   "keywords": ["php", "library","class", "discord", "message", "notification"],
   "type": "library",
-  "homepage": "https://github.com/agorlov/discordmsg",
+  "homepage": "https://github.com/m0bYczE/discordmsg",
   "license": "MIT",
   "autoload": {
     "classmap": [ "Msg.php", "DiscordMsg.php" ]
