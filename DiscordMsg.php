@@ -81,8 +81,6 @@ final class DiscordMsg implements Msg
 
         curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode([
             'content' => $this->msg,
-            'username' => $this->username,
-            'avatar_url' => $this->avatar,
         ]));
 
         $output = json_decode(
